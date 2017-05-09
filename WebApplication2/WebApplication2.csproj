@@ -150,8 +150,10 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\DOM.js" />
     <Content Include="Content\MainPage.html" />
     <Content Include="Content\script.js" />
+    <Content Include="Content\WorkWithDOM.html" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

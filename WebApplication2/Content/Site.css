@@ -1,8 +1,22 @@
-﻿div{
+﻿/*div {
     float: left;
     height: 432px;
     text-align: left;
     border: solid #000 3px;
+}*/
+
+#red {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    /*display:inline;*/
+}
+
+#yellow {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    /*display: inline;*/
 }
 
 #header {
@@ -18,4 +32,12 @@
 
 .guess_box{
     height: 432px;
+}
+
+.hover{
+    border:solid #f00 3px;
+}
+
+.no_hover{
+    border:solid #000 3px;
 }

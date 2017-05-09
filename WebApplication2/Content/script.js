@@ -6,6 +6,16 @@
         return result;
     }
 
+    $(".guess_box").hover(
+        function () {
+            $(this).removeClass("no_hover");
+            $(this).addClass("hover");
+        },
+        function () {
+            $(this).removeClass("hover");
+            $(this).addClass("no_hover");
+        });
+
     var hideCode = function () {
         var numRand = getRandom(3);
         $(".guess_box").each(function (index, value) {
